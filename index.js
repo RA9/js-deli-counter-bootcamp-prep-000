@@ -26,5 +26,5 @@ function currentLine(katzDeliLine) {
       nextInLine.push(`${counter}. ${katzDeliLine[i]}`)
   }
   
-  return `The line is currently:  ${nextInLine.join(',')} `
+  return `The line is currently:  ${nextInLine.join(' ,')} `
 }
